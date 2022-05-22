@@ -1,0 +1,54 @@
+.App {
+margin:0;
+padding:0;
+display:flex;
+flex-wrap:wrap;
+  font-family: sans-serif;
+  text-align: center;
+  align-items:center;
+  justify-center:center;
+  background: rgb(63,94,251);
+background: linear-gradient(156deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  height:100vh;
+  width:100vw;
+  box-sizing:border-box;
+}
+.to-do-list{
+
+align-items:center;
+justify-content: center;
+width:40vw;
+height:600px;
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color:white;
+}
+.input-field{
+display:inline;
+box-sizing:border-box;
+}
+.add-item{
+width:55%;
+height:45px;
+background-color:transparent;
+border:3px solid #0025ff;
+box-sizing:border-box;
+outline:none;
+border-radius:5px 0 0 5px ;
+}
+.add-item-btn{
+height:45px;
+width:100px;
+border:none;
+//border-top:4px solid rgb(63,94,251);
+//border-bottom:4px solid rgb(63,94,251);
+background: #0025ff;
+color:white;
+font-size:17px;
+border-radius:0 5px 5px  0;
+box-sizing:border-box;
+}
